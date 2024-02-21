@@ -28,9 +28,10 @@
             </div>
             <div class="box__control">
                 <button class="btn1">
-                    <img src="./img/telefon .png" alt="">
-                    +8(_ _ _)_ _ _ - _ _ - _ _
+                    <img src="./img/telefon .png" alt=""><br>
+                    <input type="tel" placeholder="+8(_ _ _)_ _ _ - _ _ - _ _">
                 </button>
+
                 <button class="btn2">
                     Получить на watsapp
                 </button>
@@ -58,25 +59,97 @@
             </div>
         </div>
     </section>
-    <!-- <section class="section2">
+    <section class="section2">
         <div class="container">
             <div class="quti">
-                <div>
+                <div class="labels">
                     <label for="">Что нужно отремонтировать</label>
                     <label for="">Вид ремонта</label>
                     <label for="">Тип помещения</label>
                     <label for="">Площадь помещения кв.м.: 120</label>
                 </div>
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="range">
+                <div class="labels2">
+                    <input type="text" placeholder="Квартира">
+                    <input type="text" placeholder="Косметичекий">
+                    <input type="text" placeholder="Новостройка">
+                    <p>25 <input type="range"> 30</p>
+                    
+                </div>
             </div>
-            <input type="text">
-            <input type="tel">
+            <div class="quti2">
+                <div class="labels__one">
+                    <label for="">Срок выполнения</label>
+                    <label for="">Введите Ваш номер телефона</label>
+                </div>
+                <div class="labels__two">
+                    <input type="text" placeholder="90-120 дней">
+                    <input type="tel" placeholder="+8(000) 000-00-00">
+                    <button class="btn__control">Отправить на Watsapp</button>
+                </div>
+            </div>
         </div>
-    </section> -->
-    <br><br><br><br><br><br>
+    </section>
+    <section class="section3">
+        <div class="container">
+            <div class="our">
+                <h2 class="our__title">Наши преимущества</h2>
+                <img class="shrupavoy" src="./img/shrupavoy.png" alt="">
+                <ul class="our__list">
+                    <li class="list__item">
+                        <img src="./img/rasm1.png" alt=""><br>
+                        <p>До ПЯТИ лет Гарантии</p>
+                    </li>
+                    <li class="list__item">
+                        <img src="./img/rasm2.png" alt=""><br>
+                        <p>Заключаем официальный договор</p>
+                    </li>
+                    <li class="list__item">
+                        <img src="./img/rasm3.png" alt=""><br>
+                        <p>Регулярные отчёты в WhatsApp</p>
+                    </li>
+                    <li class="list__item">
+                        <img src="./img/rasm4.png" alt=""><br>
+                        <p>Уделяем максимум внимания
+                            каждому объекту</p>
+                    </li>
+                    <li class="list__item">
+                        <img src="./img/rasm5.png" alt=""><br>
+                        <p>Стройматериалы со своего склада
+                            по ценам Петровича</p>
+                    </li>
+                    <li class="list__item">
+                        <img src="./img/rasm6.png" alt=""><br>
+                        <p>100% точный замер и точная смета</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+        <div class="container">
+            <div class="wrapper">
+                <button onclick="fnPrevius()"> < </button>
+                <div class="corusel">
+                    <ul class="corusel__list">
+                        <li class="corusel__item">
+                            <img src="https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150749.jpg" alt="">
+                        </li>
+                        <li class="corusel__item">
+                            <img src="https://netstorage-tuko.akamaized.net/images/ecbfbefa76139cd4.jpg" alt="">
+                        </li>
+                        <li class="corusel__item">
+                            <img src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_640.jpg" alt="">
+                        </li>
+                        <li class="corusel__item">
+                            <img src="https://archello.s3.eu-central-1.amazonaws.com/images/2021/02/02/leo-romano-most-beautiful-house-private-houses-archello.1612253803.2979.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <button onclick="fnNext()">  > </button>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 <script src="./js/main.js"></script>
 </html>
